@@ -14,7 +14,7 @@ const Download = () => {
             Get the full source code on GitHub
           </p>
         </div>
-        <button className={styles.btnPrimary}>Source Code</button>
+        <button className={styles.btnPrimary} onClick={()=>window.open("https://github.com/JawadAsif/React_Native_NFT_Marketplace_App","_blank")}>Source Code</button>
         <div className={styles.flexCenter}>
           <img
             src={assets.scene}
